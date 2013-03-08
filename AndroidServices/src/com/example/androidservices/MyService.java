@@ -9,6 +9,7 @@ public class MyService extends Service{
 	
 	@Override
 	public void onCreate(){
+		super.onCreate();
 		Log.d("MY_SERVICE","SERVICE CREATED");
 	}
 
@@ -35,6 +36,7 @@ public class MyService extends Service{
 	
 	@Override
 	public void onDestroy(){
+		super.onDestroy();
 		Log.d("MY_SERVICE","SERVICE DESTROYED");
 	}
 
